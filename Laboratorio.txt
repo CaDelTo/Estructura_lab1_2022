@@ -1,0 +1,88 @@
+Universidad del Norte
+Departamento de Ingeniería de Sistemas y Computación
+Estructura de Datos I
+Laboratorio 1
+Prof. Sebastian Racedo
+
+Fecha límite de entrega: 02 de Septiembre, 9:30
+
+1.	(2.5) Se tienen tres archivos secuenciales:
+a.	Clientes: Debe estar ordenado por Cedula
+	
+Cedula	Nombre	Dir	Celular	Email
+
+Numerico[10]	Cadena[20]	Cadena[20]	Numerico[12]	Cadena[30]
+
+b.	Facturas: Debe estar ordenado por CedulaF (Un cliente puede no tener ninguna factura o puede tener 
+varias facturas y en cada factura solo tiene un tipo de producto)
+
+CedulaF	NumFactura	CodProductor	Cantidad
+Numerico[10]	Numerico[10]	Numerico[10]	Numerico[5]
+
+c.	Productos
+
+Codigo	Descripcion	Precio
+Numerico[10]	Cadena[100]	Numerico[10]
+
+Se requiere crear un algoritmo (usando Java) que muestre para los clientes con facturas su cédula, nombre, 
+celular y el total de deudas por pagar. Además se necesita saber cuál es el código del producto que mayor número
+ de clientes solicitaron. No por cantidad de ventas sino porque más clientes pidieron de él (si hay más de uno mostrar el primero)
+
+Clientes
+
+10	Alice	Kra	310	a@
+20	Jorge	Calle	311	j@
+30	Maria	Avda	315	mm@
+40	Rony	Km5	316	xmm@
+50	Carmen	Calle 18	310	ymm@
+60	Luis	Kra 90	313	zmm@
+70	Saul	Calle 78	316	rmrm@
+80	Mario	Calle 72	300	Cmm2@
+90	Dany	Kra 108	312	fmm@
+
+Facturas
+
+20	1500	100	10
+20	1700	300	5
+20	1800	400	4
+60	2000	300	10
+70	2050	300	20
+70	2070	800	5
+70	2080	900	8
+70	2090	400	10
+
+Productos
+
+100	Lavadora	500000
+300	Nevera	700000
+400	Tv	400000
+800	Escritorio	200000
+900	Muebles	100000
+
+
+2.	(2.5) Investigar como distintos lenguajes de programación (al menos 3) hacen la lectura/escritura/modificación
+ de archivos en la actualidad. Las preguntas puntuales (más no limitadas a estas) para este punto son:
+a.	Todos los lenguajes de programación usan los mismos métodos para trabajar con archivos (tanto para lectura como escritura)?
+ Explicar su respuesta/describir un ejemplo.
+b.	Programar un script que use archivos, posibles ejemplos son:
+i.	Lectura de un archivo con al menos 10000 registros.
+ii.	Buscar un registro (por algún campo) en un archivo con al menos 10000 registros.
+iii.	Eliminar un registro (buscando por algún campo) en un archivo con al menos 10000 registros.
+iv.	Etc.
+
+y comparar los resultados de estos, algunas métricas interesantes pueden ser: tiempo de ejecución, número de líneas de
+ código utilizadas, complejidad, etc.
+c.	En qué se diferencian (si es que se diferencian) los algoritmos que trabajan sobre archivos en la actualidad
+ de los vistos en clase? Explicar su respuesta.
+
+Mínimo dos integrantes, máximo tres.
+
+Todo el código (ya sea un solo proyecto o múltiples proyectos) debe ser subido a un repositorio de GitHub 
+(privado de preferencia).
+
+Citar cualquier cosa que no sea de su autoría según las reglas IEEE.
+
+
+
+MAY THE FORCE BE WITH YOU!
+
